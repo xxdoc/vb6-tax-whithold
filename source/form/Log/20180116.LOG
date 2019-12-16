@@ -1,0 +1,12 @@
+2018/01/16 08:55:23  Project name <prjWhitHold> : Module name <clsDatabaseMngr> :Routine name <ConnectDatabase> : Local error message <Runtime error.> : System error message <SQLCODE=-902:
+I/O error for file "D:\DATABASE\MTP_TAX.GDB"
+Error while trying to open file
+The system cannot find the file specified. 
+IBCODE=isc_io_error
+>
+2018/01/16 08:55:35  Project name <prjWhitHold> : Module name <clsDatabaseMngr> :Routine name <ConnectDatabase> : Local error message <Runtime error.> : System error message <SQLCODE=-902:
+I/O error for file "D:\DATABASE\MTP_TAX.GDB"
+Error while trying to open file
+The system cannot find the file specified. 
+IBCODE=isc_io_error
+>
