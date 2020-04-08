@@ -388,7 +388,10 @@ Dim TType As Long
          Set HeadCf = m_Headers1.Fields(4)                                                         'ºØ¤¤Å¸ÃÃÁ´Ò
          If Ti.PS_TYPE = "ºØ¤¤Å¸ÃÃÁ´Ò" Then
                   TempStr = FormatNumber(Ti.PAID_AMOUNT)
-                  Total1(4) = Total1(4) + CDbl(Replace(FormatNumber(Ti.PAID_AMOUNT, "-"), ",", "")) 'Ti.PAID_AMOUNT
+'                  If Ti.PAID_AMOUNT > 0 Then
+'                  Total1(4) = Total1(4) + CDbl(Replace(FormatNumber(Ti.PAID_AMOUNT, "-"), ",", "")) 'Ti.PAID_AMOUNT
+'                  End If
+                   Total1(4) = Total1(4) + Ti.PAID_AMOUNT
          Else
                   TempStr = "-"
          End If
